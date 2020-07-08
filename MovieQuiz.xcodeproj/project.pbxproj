@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59F9F674212101B3002442C3 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9F673212101B3002442C3 /* GameOverViewController.swift */; };
+		59F9F676212104A5002442C3 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9F675212104A5002442C3 /* QuizManager.swift */; };
+		A108094B211E1F080053004C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A108094A211E1F080053004C /* AppDelegate.swift */; };
+		A108094D211E1F080053004C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A108094C211E1F080053004C /* ViewController.swift */; };
+		A1080950211E1F080053004C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A108094E211E1F080053004C /* Main.storyboard */; };
+		A1080952211E1F0A0053004C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1080951211E1F0A0053004C /* Assets.xcassets */; };
+		A1080955211E1F0A0053004C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1080953211E1F0A0053004C /* LaunchScreen.storyboard */; };
+		A1080973211E1F790053004C /* quote19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A108095C211E1F760053004C /* quote19.mp3 */; };
+		A1080974211E1F790053004C /* quote3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A108095D211E1F760053004C /* quote3.mp3 */; };
+		A1080975211E1F790053004C /* quote10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A108095E211E1F760053004C /* quote10.mp3 */; };
+		A1080976211E1F790053004C /* quote4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A108095F211E1F760053004C /* quote4.mp3 */; };
+		A1080977211E1F790053004C /* quote16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1080960211E1F760053004C /* quote16.mp3 */; };
+		A1080978211E1F790053004C /* quizes.json in Resources */ = {isa = PBXBuildFile; fileRef = A1080961211E1F760053004C /* quizes.json */; };
+		A1080979211E1F790053004C /* quote17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1080962211E1F760053004C /* quote17.mp3 */; };
+		A108097A211E1F790053004C /* quote14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1080963211E1F760053004C /* quote14.mp3 */; };
+		A108097B211E1F790053004C /* quote8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1080964211E1F770053004C /* quote8.mp3 */; };
+		A108097C211E1F790053004C /* quote13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1080965211E1F770053004C /* quote13.mp3 */; };
+		A108097D211E1F790053004C /* options.json in Resources */ = {isa = PBXBuildFile; fileRef = A1080966211E1F770053004C /* options.json */; };
+		A108097E211E1F790053004C /* quote6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1080967211E1F770053004C /* quote6.mp3 */; };
+		A108097F211E1F790053004C /* quote18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1080968211E1F770053004C /* quote18.mp3 */; };
+		A1080980211E1F790053004C /* quote9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1080969211E1F770053004C /* quote9.mp3 */; };
+		A1080981211E1F790053004C /* quote15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A108096A211E1F770053004C /* quote15.mp3 */; };
+		A1080982211E1F790053004C /* quote20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A108096B211E1F770053004C /* quote20.mp3 */; };
+		A1080983211E1F790053004C /* quote7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A108096C211E1F780053004C /* quote7.mp3 */; };
+		A1080984211E1F790053004C /* quote11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A108096D211E1F780053004C /* quote11.mp3 */; };
+		A1080985211E1F790053004C /* MarchaImperial.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A108096E211E1F780053004C /* MarchaImperial.mp3 */; };
+		A1080986211E1F790053004C /* quote5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A108096F211E1F780053004C /* quote5.mp3 */; };
+		A1080987211E1F790053004C /* quote1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1080970211E1F780053004C /* quote1.mp3 */; };
+		A1080988211E1F790053004C /* quote2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1080971211E1F790053004C /* quote2.mp3 */; };
+		A1080989211E1F790053004C /* quote12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1080972211E1F790053004C /* quote12.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59F9F673212101B3002442C3 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		59F9F675212104A5002442C3 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		A1080947211E1F080053004C /* MovieQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A108094A211E1F080053004C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A108094C211E1F080053004C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A108094F211E1F080053004C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1080951211E1F0A0053004C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1080954211E1F0A0053004C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1080956211E1F0A0053004C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A108095C211E1F760053004C /* quote19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote19.mp3; sourceTree = "<group>"; };
+		A108095D211E1F760053004C /* quote3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote3.mp3; sourceTree = "<group>"; };
+		A108095E211E1F760053004C /* quote10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote10.mp3; sourceTree = "<group>"; };
+		A108095F211E1F760053004C /* quote4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote4.mp3; sourceTree = "<group>"; };
+		A1080960211E1F760053004C /* quote16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote16.mp3; sourceTree = "<group>"; };
+		A1080961211E1F760053004C /* quizes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quizes.json; sourceTree = "<group>"; };
+		A1080962211E1F760053004C /* quote17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote17.mp3; sourceTree = "<group>"; };
+		A1080963211E1F760053004C /* quote14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote14.mp3; sourceTree = "<group>"; };
+		A1080964211E1F770053004C /* quote8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote8.mp3; sourceTree = "<group>"; };
+		A1080965211E1F770053004C /* quote13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote13.mp3; sourceTree = "<group>"; };
+		A1080966211E1F770053004C /* options.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = options.json; sourceTree = "<group>"; };
+		A1080967211E1F770053004C /* quote6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote6.mp3; sourceTree = "<group>"; };
+		A1080968211E1F770053004C /* quote18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote18.mp3; sourceTree = "<group>"; };
+		A1080969211E1F770053004C /* quote9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote9.mp3; sourceTree = "<group>"; };
+		A108096A211E1F770053004C /* quote15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote15.mp3; sourceTree = "<group>"; };
+		A108096B211E1F770053004C /* quote20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote20.mp3; sourceTree = "<group>"; };
+		A108096C211E1F780053004C /* quote7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote7.mp3; sourceTree = "<group>"; };
+		A108096D211E1F780053004C /* quote11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote11.mp3; sourceTree = "<group>"; };
+		A108096E211E1F780053004C /* MarchaImperial.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MarchaImperial.mp3; sourceTree = "<group>"; };
+		A108096F211E1F780053004C /* quote5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote5.mp3; sourceTree = "<group>"; };
+		A1080970211E1F780053004C /* quote1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote1.mp3; sourceTree = "<group>"; };
+		A1080971211E1F790053004C /* quote2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote2.mp3; sourceTree = "<group>"; };
+		A1080972211E1F790053004C /* quote12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote12.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1080944211E1F080053004C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A108093E211E1F070053004C = {
+			isa = PBXGroup;
+			children = (
+				A1080949211E1F080053004C /* MovieQuiz */,
+				A1080948211E1F080053004C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1080948211E1F080053004C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1080947211E1F080053004C /* MovieQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1080949211E1F080053004C /* MovieQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				A108094A211E1F080053004C /* AppDelegate.swift */,
+				A108098A211E1F7E0053004C /* Files */,
+				A108094C211E1F080053004C /* ViewController.swift */,
+				59F9F673212101B3002442C3 /* GameOverViewController.swift */,
+				59F9F675212104A5002442C3 /* QuizManager.swift */,
+				A108094E211E1F080053004C /* Main.storyboard */,
+				A1080951211E1F0A0053004C /* Assets.xcassets */,
+				A1080953211E1F0A0053004C /* LaunchScreen.storyboard */,
+				A1080956211E1F0A0053004C /* Info.plist */,
+			);
+			path = MovieQuiz;
+			sourceTree = "<group>";
+		};
+		A108098A211E1F7E0053004C /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				A108096E211E1F780053004C /* MarchaImperial.mp3 */,
+				A1080966211E1F770053004C /* options.json */,
+				A1080961211E1F760053004C /* quizes.json */,
+				A1080970211E1F780053004C /* quote1.mp3 */,
+				A1080971211E1F790053004C /* quote2.mp3 */,
+				A108095D211E1F760053004C /* quote3.mp3 */,
+				A108095F211E1F760053004C /* quote4.mp3 */,
+				A108096F211E1F780053004C /* quote5.mp3 */,
+				A1080967211E1F770053004C /* quote6.mp3 */,
+				A108096C211E1F780053004C /* quote7.mp3 */,
+				A1080964211E1F770053004C /* quote8.mp3 */,
+				A1080969211E1F770053004C /* quote9.mp3 */,
+				A108095E211E1F760053004C /* quote10.mp3 */,
+				A108096D211E1F780053004C /* quote11.mp3 */,
+				A1080972211E1F790053004C /* quote12.mp3 */,
+				A1080965211E1F770053004C /* quote13.mp3 */,
+				A1080963211E1F760053004C /* quote14.mp3 */,
+				A108096A211E1F770053004C /* quote15.mp3 */,
+				A1080960211E1F760053004C /* quote16.mp3 */,
+				A1080962211E1F760053004C /* quote17.mp3 */,
+				A1080968211E1F770053004C /* quote18.mp3 */,
+				A108095C211E1F760053004C /* quote19.mp3 */,
+				A108096B211E1F770053004C /* quote20.mp3 */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1080946211E1F080053004C /* MovieQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1080959211E1F0A0053004C /* Build configuration list for PBXNativeTarget "MovieQuiz" */;
+			buildPhases = (
+				A1080943211E1F080053004C /* Sources */,
+				A1080944211E1F080053004C /* Frameworks */,
+				A1080945211E1F080053004C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieQuiz;
+			productName = MovieQuiz;
+			productReference = A1080947211E1F080053004C /* MovieQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A108093F211E1F080053004C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Exatron;
+				TargetAttributes = {
+					A1080946211E1F080053004C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A1080942211E1F080053004C /* Build configuration list for PBXProject "MovieQuiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A108093E211E1F070053004C;
+			productRefGroup = A1080948211E1F080053004C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1080946211E1F080053004C /* MovieQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1080945211E1F080053004C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A108097F211E1F790053004C /* quote18.mp3 in Resources */,
+				A1080955211E1F0A0053004C /* LaunchScreen.storyboard in Resources */,
+				A108097A211E1F790053004C /* quote14.mp3 in Resources */,
+				A108097B211E1F790053004C /* quote8.mp3 in Resources */,
+				A1080973211E1F790053004C /* quote19.mp3 in Resources */,
+				A108097C211E1F790053004C /* quote13.mp3 in Resources */,
+				A1080989211E1F790053004C /* quote12.mp3 in Resources */,
+				A1080978211E1F790053004C /* quizes.json in Resources */,
+				A1080988211E1F790053004C /* quote2.mp3 in Resources */,
+				A1080975211E1F790053004C /* quote10.mp3 in Resources */,
+				A108097E211E1F790053004C /* quote6.mp3 in Resources */,
+				A1080982211E1F790053004C /* quote20.mp3 in Resources */,
+				A1080974211E1F790053004C /* quote3.mp3 in Resources */,
+				A1080979211E1F790053004C /* quote17.mp3 in Resources */,
+				A1080981211E1F790053004C /* quote15.mp3 in Resources */,
+				A1080986211E1F790053004C /* quote5.mp3 in Resources */,
+				A1080952211E1F0A0053004C /* Assets.xcassets in Resources */,
+				A1080987211E1F790053004C /* quote1.mp3 in Resources */,
+				A1080950211E1F080053004C /* Main.storyboard in Resources */,
+				A1080977211E1F790053004C /* quote16.mp3 in Resources */,
+				A108097D211E1F790053004C /* options.json in Resources */,
+				A1080984211E1F790053004C /* quote11.mp3 in Resources */,
+				A1080983211E1F790053004C /* quote7.mp3 in Resources */,
+				A1080985211E1F790053004C /* MarchaImperial.mp3 in Resources */,
+				A1080980211E1F790053004C /* quote9.mp3 in Resources */,
+				A1080976211E1F790053004C /* quote4.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1080943211E1F080053004C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F9F676212104A5002442C3 /* QuizManager.swift in Sources */,
+				A108094D211E1F080053004C /* ViewController.swift in Sources */,
+				A108094B211E1F080053004C /* AppDelegate.swift in Sources */,
+				59F9F674212101B3002442C3 /* GameOverViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A108094E211E1F080053004C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A108094F211E1F080053004C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1080953211E1F0A0053004C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1080954211E1F0A0053004C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1080957211E1F0A0053004C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1080958211E1F0A0053004C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A108095A211E1F0A0053004C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83NFHDY43B;
+				INFOPLIST_FILE = MovieQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.edwylugo.MovieQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A108095B211E1F0A0053004C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83NFHDY43B;
+				INFOPLIST_FILE = MovieQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.edwylugo.MovieQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1080942211E1F080053004C /* Build configuration list for PBXProject "MovieQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1080957211E1F0A0053004C /* Debug */,
+				A1080958211E1F0A0053004C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1080959211E1F0A0053004C /* Build configuration list for PBXNativeTarget "MovieQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A108095A211E1F0A0053004C /* Debug */,
+				A108095B211E1F0A0053004C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A108093F211E1F080053004C /* Project object */;
+}
